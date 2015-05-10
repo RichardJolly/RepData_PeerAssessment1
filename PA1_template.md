@@ -1,11 +1,3 @@
----
-title: #Reproducible Research Peer Assessment 1#
-output:
-  html_document:
-    keep_md: yes
-  pdf_document: default
-  word_document: default
----
 
 # Reproducible Research Peer Assessment 1#
 
@@ -23,41 +15,9 @@ Show any code that is needed to
 ```r
 # Load the required packages
 require(dplyr)
-```
-
-```
-## Loading required package: dplyr
-## 
-## Attaching package: 'dplyr'
-## 
-## The following object is masked from 'package:stats':
-## 
-##     filter
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 require(ggplot2)
-```
-
-```
-## Loading required package: ggplot2
-## Find out what's changed in ggplot2 with
-## news(Version == "1.0.1", package = "ggplot2")
-```
-
-```r
 require(timeDate)
-```
 
-```
-## Loading required package: timeDate
-```
-
-```r
 # Download the raw data file from the supplied URL
 # download.file("http://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip", "activity.zip", mode = "wb")
 
