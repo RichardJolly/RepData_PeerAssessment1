@@ -1,11 +1,3 @@
----
-title: #Reproducible Research Peer Assessment 1#
-output:
-  html_document:
-    keep_md: yes
-  pdf_document: default
-  word_document: default
----
 
 # Reproducible Research Peer Assessment 1#
 
